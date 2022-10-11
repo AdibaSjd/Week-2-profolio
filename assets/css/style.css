@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    font-style:unset;
+    font-weight:100;
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 188);
+    justify-content: space-around;
+   border-radius: 25px;
+}
+
+header p{
+   font-size: 36px;
+
+}
+ header ul{
+display: flex;
+list-style: none;
+ }
+
+ header ul li{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+ }
+ .content{
+   margin-top: 25px;
+   display: flex;
+   width: 100%;
+   display:inline-block;
+   background-color: rgb(186, 184, 184);
+   border-radius: 25px;
+ }
+
+ main{
+    display:flex;
+ }
+
+ .mains{
+   font-size: 20px;
+ }
+
+ aside{
+   background-color: rgb(191, 179, 164);
+   font-style:unset;
+    width: 25%;
+    border-radius: 25px;
+    margin-top: 25px;
+    height: 800px;
+}
+
+ aside section{
+   background-color: rgb(191, 179, 164);
+   font-style: oblique;
+   font-size: 30px;
+   background-color: rgb(191, 179, 164);
+ }
+
+.fan{
+   margin-bottom: 30px;
+   display:flex;
+ }
+  h2{
+   font-size: 36px;
+  }
+  h3{
+   font-size: 36px;
+  }
+
+  .Adibapicture{ 
+  background-color: rgb(191, 179, 164);
+  border-radius: 30px;
+  margin-top: 20px;
+  justify-content: center;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+  }
+
+  .picturesaside{ 
+   display: flex;
+   align-items: left;
+   flex-wrap: nowrap;
+  }
+
+  .about-me{
+   margin-bottom: 20px;
+   height: 300px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
