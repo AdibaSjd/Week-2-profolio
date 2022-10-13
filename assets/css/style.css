@@ -28,9 +28,16 @@ margin-top: 30px;
 align-items: baseline;
 position: relative;
  }
+ @media only screen and (max-width: 600px) {
+nav{
+  display: flex;
+  flex-direction: column;
+  }
+}
 
 header ul li{
 margin:10px
+
  }
 
 li :hover{
@@ -147,8 +154,12 @@ a{
     display:flex;
     flex-direction: row;
   }
-  
-
+  @media only screen and (max-width: 600px) {
+    .container1 { 
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 /*footer*/
 footer{
