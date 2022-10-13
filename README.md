@@ -30,6 +30,5 @@ https://adibasjd.github.io/week-1-code-refractor/
 
 ## My web page
 
-   ![](Profolio%201/assets/Screenshot%202022-10-11%20at%2015.05.32.png)
-   ![](Profolio%201/assets/Screenshot%202022-10-11%20at%2015.05.38.png)
-   ![](Profolio%201/assets/Screenshot%202022-10-11%20at%2015.05.47.png)
+ ![](assets/Screenshot%202022-10-13%20at%2012.50.20.png)
+ ![](assets/Screenshot%202022-10-13%20at%2012.50.42.png)

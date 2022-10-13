@@ -1,94 +1,159 @@
+/*Header bar: containing the main title of the page (Hi I'm Adiba)
+- containing nav tags to transport you to the "About me", "More" and "Contact me" section. */
 header {
     display: flex;
-    font-style:unset;
-    font-weight:100;
+    font-family: monospace, "Lucida Console";
     color: rgb(0, 0, 0);
-    background-color: rgb(189, 189, 188);
+    background-color: rgb(255, 255, 253);
     justify-content: space-around;
-   border-radius: 25px;
+    position:fixed;
+    top:0;
+    width:100%;
+    height: 100px;
 }
 
 header p{
    font-size: 36px;
-
 }
- header ul{
+
+
+
+
+/*header ul, li: To transport you to the "About me", "More" and "Contact me" section. */
+header ul{
 display: flex;
 list-style: none;
+font-size: 25px;
+margin-top: 30px;
+align-items: baseline;
+position: relative;
  }
 
- header ul li{
-    margin: 10px;
-    margin-top: 30px;
-    font-size: 25px;
+header ul li{
+margin:10px
  }
- .content{
+
+li :hover{
+border-style:dashed;
+ }
+li :active{
+border-style:dashed;
+ }
+
+li :focus{
+  border-style:dashed;
+}
+
+
+
+
+/*Main section: Containg information about myself found in the boxes containing content
+about me and more which can be navigated to by using the heading <li> tags*/
+main{
+  display:flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 20px;
+  margin-right: 200px;
+ }
+
+h2{
+  font-size: 36px;
+  font-weight:200;
+ }
+
+.boxes{
+  display: flex;
+   font-family: monospace, "Lucida Console";
+   background-color: rgb(186, 184, 184);    
    margin-top: 25px;
-   display: flex;
+   flex-direction: column;
    width: 100%;
-   display:inline-block;
-   background-color: rgb(186, 184, 184);
-   border-radius: 25px;
- }
-
- main{
-    display:flex;
- }
-
- .mains{
-   font-size: 20px;
- }
-
- aside{
-   background-color: rgb(191, 179, 164);
-   font-style:unset;
-    width: 25%;
+   padding: 30px;
+   
+  }
+/*.navphoto: section where the images are interactive and can be used
+to navigate to various pages.*/
+  .navphotos{
+    background-color: rgb(255, 255, 255);    
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
     border-radius: 25px;
-    margin-top: 25px;
+    padding: 30px;
+    flex-direction: row;
+  }
+
+
+/*Main image: Picture of myself*/
+.Adibapicture{ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 105px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+
+
+/*Aside: contact me sections containing <a> tags to take the visitor to various way to get 
+intouch with myself.
+- containg an arrow to point the visitor to look at various web pages developed*/
+aside{
+   background-color:rgb(255, 255, 255);
+   font-family: monospace, "Lucida Console";
+    width: 200px;
+    margin-top: 5px;
     height: 800px;
+    margin-right: 25px;
+    padding: 30px;
 }
 
  aside section{
-   background-color: rgb(191, 179, 164);
+   background-color: rgb(255, 255, 255);
    font-style: oblique;
    font-size: 30px;
-   background-color: rgb(191, 179, 164);
  }
 
 .fan{
    margin-bottom: 30px;
-   display:flex;
+   display:flex; 
  }
-  h2{
-   font-size: 36px;
-  }
-  h3{
-   font-size: 36px;
+
+h3{
+  font-size: 36px;
+  font-weight: normal;
+ }
+ .explore{
+  font-size: 20px;
+  margin-bottom: 80px;
+ }
+ .picturesaside{ 
+  display: flex;
+  align-items: left;
+  flex-wrap: nowrap;
+ }
+
+a{
+  color: black;
+}
+
+
+
+
+/*container1: main box for main and aside boxes*/
+.container1{
+    display:flex;
+    flex-direction: row;
   }
 
-  .Adibapicture{ 
-  background-color: rgb(191, 179, 164);
-  border-radius: 30px;
-  margin-top: 20px;
-  justify-content: center;
-   display: flex;
-   flex-flow: row nowrap;
-   align-items: center;
-  }
 
-  .picturesaside{ 
-   display: flex;
-   align-items: left;
-   flex-wrap: nowrap;
-  }
+/*footer*/
+footer{
+font-family: monospace, "Lucida Console";
+display: flex;
+justify-content: center;
+}
 
-  .about-me{
-   margin-bottom: 20px;
-   height: 300px;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
