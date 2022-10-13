@@ -54,7 +54,7 @@ main{
   flex-direction: column;
   padding: 30px;
   font-size: 20px;
-  margin-right: 200px;
+  margin-right: 800px;
  }
 
 h2{
@@ -70,7 +70,6 @@ h2{
    flex-direction: column;
    width: 100%;
    padding: 30px;
-   
   }
 /*.navphoto: section where the images are interactive and can be used
 to navigate to various pages.*/
