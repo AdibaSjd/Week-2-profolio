@@ -23,11 +23,11 @@ To make a portfolio web page containing work examples of skills I have developed
 My main issue was ensuring my flex boxes space out evenly across the page so my page layout formed to the search engine allowing for easier use of CSS. However, nearer the end of my task I was able to resolve the issue by using the inspect on google which help immensely. 
 
 ## General info
- This is a page developed through html and later styled through CSS. The lay out of the page was done using semantic html elements enabling description to the browser and myself. This allowed for more thought into the structure of the page to enable me to show case the skills I have learnt through CSS and html. 
+ This is a page developed through html and later styled through CSS. The lay out of the page was done using semantic html elements enabling description to the browser and myself. This allowed for more thought into the structure of the page to enable me to show case the skills I have learnt through CSS and html.
 
 ## Page link
 
-https://adibasjd.github.io/week-1-code-refractor/
+https://adibasjd.github.io/Week-2-profolio/
 
 ## My web page
 
